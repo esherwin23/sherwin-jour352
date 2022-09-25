@@ -1,19 +1,21 @@
+/* styles for my resume*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* style for all elements*/
 * {
     font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 400; 
 }
-
+/* style for the title of the webpage*/
 title {
     text-transform: uppercase;
 }
-
+/*style for my name at the top of the page*/
 h1 {
     color: #33485e;
     size: 3em; 
     text-transform: uppercase;
 }
-
+/* style for each section header*/
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -21,3 +23,24 @@ h2 {
     color: white;
     font-weight: 400;
 }
+/* style for job position titles */
+h3 {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+/* style for organizations */
+h4 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+/* style for dates worked */
+h5 {
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+}
+/* style for education, skills and contact info */
+ul {
+    font-size: 1em;
+}
+
