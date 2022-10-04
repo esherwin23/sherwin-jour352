@@ -70,11 +70,11 @@
 ul {
     font-size: 1em;
 }
-
+/*style for the descriptions of my jobs*/
 .description {
     margin: 10px 0px 10px 0px;
 }
-
+/*style for the contact menu at the top*/
 .menu {
     margin: 0px;
     padding: 0px;
