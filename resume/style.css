@@ -33,7 +33,7 @@
     color: #33485e;
     size: 3em; 
     text-transform: uppercase;
-    border: 1px solid #33485e;
+    border-bottom: 1px solid #33485e;
     width: 60%;
     min-width: 300px;
     margin: 0 auto;
