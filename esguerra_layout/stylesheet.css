@@ -3,6 +3,10 @@
     width: 900px;
 }
 
+#masthead {
+    margin: 0 auto;
+}
+
 h1 {
     font-family: Helvetica, sans-serif;
     font-style: bold;
