@@ -30,7 +30,8 @@ h2 {
 }
 
 #caption {
-    font-size: 12px;
+    font-size: 10px;
+    font-style: italic;
 }
 
 p {
