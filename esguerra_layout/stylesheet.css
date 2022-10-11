@@ -29,6 +29,10 @@ h2 {
     font-style: italic;
 }
 
+#caption {
+    font-size: 12px;
+}
+
 p {
     font-family: Georgia, serif;
     size: 13px;
