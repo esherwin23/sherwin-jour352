@@ -12,6 +12,11 @@ h1 {
     font-style: bold;
 }
 
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+}
+
 #byline {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
