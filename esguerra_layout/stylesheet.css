@@ -41,7 +41,7 @@ blockquote {
     font-style: italic;
 }
 
-#caption {
+.caption {
     font-family: Helvetica, sans-serif;
     font-size: 10px;
     font-style: italic;
