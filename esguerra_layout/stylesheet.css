@@ -24,7 +24,8 @@ h2 {
 }
 
 blockquote {
-    font: 16px/24px helvetica, sans-serif; 
+    font-family: helvetica, sans-serif; 
+    font-size: 32px;
     font-style: italic; 
     margin-top: 15px; 
     margin-bottom: 15px; 
