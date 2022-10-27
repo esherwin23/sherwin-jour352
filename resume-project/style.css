@@ -1,0 +1,96 @@
+/* styles for my resume*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* style for all elements*/
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400; 
+}
+/*style for the entire document*/
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+/* style for my title*/
+#title {
+    text-transform: uppercase;
+    size: 1.5em;
+    color: #33485e;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+/*style for my mission statement*/
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/*style for my name at the top of the page*/
+#name {
+    color: #33485e;
+    size: 3em; 
+    text-transform: uppercase;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* style for each section header*/
+.sectionheader {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+    margin: 20px 0px 10px 0px;
+    width: 70%;
+    min-width: 300px;
+}
+/* style for job position titles */
+.jobtitle {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+/* style for organizations */
+.organization {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+/* style for dates worked */
+.date {
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+    margin: 2px 0px 0px 0px;
+}
+/* style for education, skills and contact info */
+ul {
+    font-size: 1em;
+}
+/*style for the descriptions of my jobs*/
+.description {
+    margin: 10px 0px 10px 0px;
+}
+/*style for the contact menu at the top*/
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.menu .li {
+    display: inline;
+}
+
+#degrees {
+    margin: 5px 0px 0px 0px;
+}
+
+#do {
+    margin: 5px 0px 0px 0px;
+}
