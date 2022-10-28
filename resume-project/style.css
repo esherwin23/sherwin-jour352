@@ -1,14 +1,14 @@
 /* styles for my resume*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 /* style for all elements*/
 * {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 400; 
+    font-family: 'Lora';
 }
+
 /*style for the entire document*/
 #container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
@@ -16,8 +16,8 @@
 #title {
     text-transform: uppercase;
     size: 1.5em;
-    color: #33485e;
-    font-weight: 600;
+    color: #1D3557;
+    font-weight: bold;
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
@@ -40,16 +40,26 @@
     margin: 0 auto;
     text-align: center;
 }
+
+img {
+    padding: 10px;
+    border: 10px;
+    border-color: white;
+}
+
+h1 {
+    font-family: 'Open Sans', serif;
+}
+
 /* style for each section header*/
 .sectionheader {
     font-size: 1.5em;
     text-transform: uppercase;
-    background-color: #33485e;
+    background-color: #1D3557;
     color: white;
     font-weight: 400;
     margin: 20px 0px 10px 0px;
-    width: 70%;
-    min-width: 300px;
+    text-align: center;
 }
 /* style for job position titles */
 .jobtitle {
@@ -73,9 +83,21 @@ ul {
     font-size: 1em;
 }
 /*style for the descriptions of my jobs*/
-.description {
-    margin: 10px 0px 10px 0px;
+.padded-grid-item {
+    padding: 22px 36px 20px;
+    border-bottom: 6px solid;
+    border-radius: 20px;
+    background-color: #fff;
 }
+
+.padded-grid-item.border-bottom-white-think {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 6px solid #1D3557;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
 /*style for the contact menu at the top*/
 .menu {
     margin: 0px;
@@ -86,11 +108,7 @@ ul {
 .menu .li {
     display: inline;
 }
+ p {
+    font-family: 'Open Sans';
+ }
 
-#degrees {
-    margin: 5px 0px 0px 0px;
-}
-
-#do {
-    margin: 5px 0px 0px 0px;
-}
