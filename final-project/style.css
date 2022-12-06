@@ -1,12 +1,123 @@
-.hero-image {
-    width: 100%;
+/* styles for my resume*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,600&display=swap');
+/* style for all elements*/
+* {
+    font-family: 'Source Sans Pro';
 }
 
-.hero-overlay {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    right: 0;
-    opacity: 0.85:
+/*style for the entire document*/
+#container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+/* style for my title*/
+h2 {
+    text-transform: uppercase;
+    size: 1em;
+    color: #D90429;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+}
+
+.padded-grid-item-title {
+    padding: 5px 36px 2px;
+    border-bottom: 6px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/*style for my mission statement*/
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     text-align: center;
 }
+/*style for my name at the top of the page*/
+#name {
+    color: #2B2D42;
+    size: 3em; 
+    text-transform: uppercase;
+    border-bottom: 1px solid #2B2D42;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    border: 10px;
+    border-color: white;
+}
+
+h1 {
+    font-family: 'Open Sans', serif;
+}
+
+/* style for each section header*/
+.sectionheader {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #D90429;
+    color: white;
+    font-weight: 400;
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+    border-radius: 25px;
+}
+/* style for job position titles */
+.jobtitle {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+/* style for organizations */
+.organization {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+/* style for dates worked */
+.date {
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+    margin: 2px 0px 0px 0px;
+}
+/* style for education, skills and contact info */
+ul {
+    font-size: 1em;
+}
+/*style for the descriptions of my jobs*/
+.padded-grid-item {
+    padding: 22px 36px 20px;
+    border-bottom: 6px solid;
+    border-radius: 20px;
+    background-color: #EDF2F4;
+}
+
+.padded-grid-item.border-bottom-white-think {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 6px solid #2B2D42;
+    border-radius: 20px;
+    background-color: #EDF2F4;
+}
+
+/*style for the contact menu at the top*/
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.menu .li {
+    display: inline;
+}
+ p {
+    font-family: 'Open Sans';
+ }
+
