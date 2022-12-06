@@ -1,4 +1,4 @@
-/* styles for my resume*/
+/* styles for my story*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,600&display=swap');
 /* style for all elements*/
 * {
@@ -53,18 +53,6 @@ h2 {
     background-color: #EDF2F4;
 }
 
-/*style for my name at the top of the page*/
-#name {
-    color: #2B2D42;
-    size: 3em; 
-    text-transform: uppercase;
-    border-bottom: 1px solid #2B2D42;
-    width: 60%;
-    min-width: 300px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 img {
     padding: 10px;
     border: 10px;
@@ -73,6 +61,17 @@ img {
 
 h1 {
     font-family: 'Open Sans', serif;
+}
+
+blockquote {
+    font-size: 32px;
+    font-style: italic; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    color: #D90429; 
+    margin-left: 50px; 
+    padding-left: 15px; 
+    border-left: 4px solid #ccc; 
 }
 
 /* style for each section header*/
