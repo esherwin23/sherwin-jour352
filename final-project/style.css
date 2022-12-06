@@ -29,7 +29,7 @@ h2 {
     background-color: #fff;
 }
 
-/*style for my mission statement*/
+/*style for my text boxes*/
 .top {
     width: 60%;
     min-width: 300px;
@@ -37,6 +37,22 @@ h2 {
     margin-bottom: 30px;
     text-align: center;
 }
+
+.padded-grid-item {
+    padding: 22px 36px 20px;
+    border-bottom: 6px solid;
+    border-radius: 20px;
+    background-color: #EDF2F4;
+}
+
+.padded-grid-item.border-bottom-white-think {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 6px solid #2B2D42;
+    border-radius: 20px;
+    background-color: #EDF2F4;
+}
+
 /*style for my name at the top of the page*/
 #name {
     color: #2B2D42;
@@ -70,54 +86,8 @@ h1 {
     text-align: center;
     border-radius: 25px;
 }
-/* style for job position titles */
-.jobtitle {
-    font-weight: 600;
-    font-size: 1.5em;
-}
-/* style for organizations */
-.organization {
-    font-weight: 400;
-    font-size: 1.25em;
-}
-/* style for dates worked */
-.date {
-    font-weight: 400;
-    font-size: 1em;
-    font-style: italic;
-    margin: 2px 0px 0px 0px;
-}
-/* style for education, skills and contact info */
+/* style for read more section */
 ul {
     font-size: 1em;
 }
-/*style for the descriptions of my jobs*/
-.padded-grid-item {
-    padding: 22px 36px 20px;
-    border-bottom: 6px solid;
-    border-radius: 20px;
-    background-color: #EDF2F4;
-}
-
-.padded-grid-item.border-bottom-white-think {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 6px solid #2B2D42;
-    border-radius: 20px;
-    background-color: #EDF2F4;
-}
-
-/*style for the contact menu at the top*/
-.menu {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-
-.menu .li {
-    display: inline;
-}
- p {
-    font-family: 'Open Sans';
- }
 
